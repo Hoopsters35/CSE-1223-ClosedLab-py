@@ -1,0 +1,6 @@
+name = str(input("Enter your name: "))
+print ('Hello' + name)
+print ('Your name is ' + str(len(name)) + " letters long")
+print("Your name starts with a " + name[0:1])
+print("Your name ends with a " + name[-1])
+print("Goodbye " + name + "!")
